@@ -9,7 +9,6 @@ export default class App extends React.Component {
       job: ""
     }
   }
-  thisApp = this
   apiCall = () => {
     fetch('https://reqres.in/api/users', { 
       method: 'POST',
